@@ -1,0 +1,439 @@
+/*第一部分*/
+.partOne{
+	width: 10rem;
+	height: 3.9066rem;
+	padding-top: 0.093333rem;
+	background-image: linear-gradient(#4B9BF7, #50A7F8,#53AEF8,#56B3F9,#59BCF9,#59BCF9,#59BCF9,#5BC1FA);
+}
+/*消息栏*/
+.news{
+	width: 9.68rem;
+	height: 0.48rem;
+	margin-left: 0.16rem;
+	margin-right: 0.16rem;
+	background-color: #FFFFFF;
+}
+/*地址和搜索栏*/
+.ad_ser{
+	width: 10rem;
+	height: 1.093333rem;
+	display: flex;
+	
+}
+.adress{
+	width: 3.906667rem;
+	height: 1.093333rem;
+	display: flex;	
+}
+.address_i{
+	display: block;
+	width: 0.32rem;
+	height: 0.4rem;
+	margin-top: 0.506667rem;
+	margin-left: 0.4rem;
+	margin-right: 0.133333rem;
+}
+.address_c{
+	margin-top: 0.506667rem;
+	font-size: 0.4rem;
+	color: #FFFFFF;
+}
+.search{
+	width: 6.093333rem;
+	height: 1.093333rem;
+	
+}
+.search_f{
+	width: 5.693333rem;
+	height: 0.853333rem;
+	margin-top: 0.24rem;
+	border-radius: 0.66rem;
+	display: flex;
+	background-color: #FFFFFF;
+	
+}
+.search_f .sear_l{
+	width: 0.36rem;
+	height: 0.36rem;
+	margin-top: 0.24rem;
+	margin-left: 0.32rem;
+	margin-right: 0.213333rem;
+	display: block;
+}
+.search_f .sear_c{
+	width: 2.98rem;
+	height: 0.433333rem;
+	border: none;
+	margin-top: 0.23rem;
+	margin-right: 1.06rem;
+	display: block;
+}
+/*input中placeholder的字体样式*/
+::-webkit-input-placeholder { /* WebKit browsers */
+  color: #999;
+  font-size: 0.32rem;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #999;
+  font-size: 0.32rem;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: #999;
+  font-size: 0.32rem;
+}
+.search_f .sear_r{
+	width: 0.426667rem;
+	height: 0.36rem;
+	margin-top: 0.24rem;
+	display: block;
+}
+/*菜单栏(扫一扫 付款吗  卡券  签到)*/
+.caidan{
+	margin-top: 0.56rem;
+	width: 10rem;
+	display: flex;
+} 
+.caidanItem{
+	width:2.5rem;
+	height: 66px;
+}
+.caidanItem img{
+	display: block;
+	width: 0.706667rem;
+	height: 0.706667rem;
+	margin: 0 auto;
+}
+.caidanItem div{
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 0.086667rem;
+	font-size: 0.373333rem;
+}
+
+/*第二部分*/
+.partTwo{
+	width: 10rem;
+	height: 5.02667rem;
+}
+.service{
+	padding-top: 0.533333rem;
+	display: flex;
+}
+.serviceItem{
+	width: 2.5rem;
+}
+.serviceItem_i{
+	width: 1.2rem;
+	height: 1.2rem;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.serviceItem_i img{
+	margin: 0 auto;
+	display: block;
+}
+.serviceItem_c{
+	font-size: 0.32rem;
+	color: #666666;
+	margin-top: 0.213333rem;
+	text-align: center;
+}
+
+/*第三部分*/
+.partThree{
+	width: 10rem;
+	height: 1.24rem;
+	padding-top: 0.133333rem;
+	padding-bottom: 0.133333rem;
+	background-color: #F3F3F4;
+}
+.partThree_c{
+	display: flex;
+	width: 10rem;
+	height: 1.22rem;
+	background-color: #FFFFFF;
+}
+.introduce_l{
+	font-size: 0.373333rem;
+	font-weight: bold;
+	margin-top: 0.32rem;
+	margin-left: 0.653333rem;
+}
+.introduce_c{
+	font-size: 0.373333rem;
+	color: #258EE5;
+	font-weight: bold;
+	margin-top: 0.32rem;
+}
+.introduce_p{
+	color: rgb(102, 102, 102);
+    margin-left: 0.15rem;
+    font-size: 0.373333rem;
+    margin-top: 0.32rem;
+}
+.introduce_r{
+	font-size: 0.373333rem;
+	margin-top: 0.32rem;
+	color: #333333;
+}
+
+/*第四部分*/
+.partFour{
+	width: 10rem;
+	height: 16.493334rem;
+}
+/*顶部*/
+.fourTop{
+	width: 10rem;
+	/*height: 2.70667rem;*/
+	height: 2rem;
+	padding-top: 0.4rem;
+	padding-bottom: 0.466667rem;
+	display: flex;
+}
+.fourTop_l{
+	width: 4.4rem;
+	height: 1.84rem;
+	margin-left: 0.4rem;
+	background: url(../img/partFour/领券中心.png);
+	background-size:4.4rem 1.84rem;
+	background-repeat:no-repeat;
+}
+.fourTop_r{
+	width: 4.4rem;
+	height: 1.84rem;
+	margin-left: 0.4rem;
+	background: url(../img/partFour/邀请好友.png);
+	background-size:4.4rem 1.84rem;
+	background-repeat:no-repeat;
+}
+.coupons{
+	width: 2.4rem;
+	height: 0.506667rem;
+	margin-top: 0.373333rem;
+	margin-left: 0.28rem;
+	font-size: 0.373333rem;
+	color: #E4863A;
+}
+.coupons_b{
+	width: 2.24rem;
+	height: 0.506667rem;
+	margin-top: 0.146667rem;
+	margin-left: 0.266667rem;
+	font-size: 0.26667rem;
+	background-color: #FEAA55;
+}
+.friend{
+	width: 2.8rem;
+	height: 0.506667rem;
+	margin-top: 0.373333rem;
+	margin-left: 0.28rem;
+	font-size: 0.373333rem;
+	color: #496ACF;
+}
+.friend_b{
+	width: 2.24rem;
+	height: 0.506667rem;
+	margin-top: 0.146667rem;
+	margin-left: 0.266667rem;
+	font-size: 0.26667rem;
+	background-color: #FEAA55;
+}
+/*医院推荐*/
+.hospital{
+	width: 10rem;
+}
+/*医院推荐头部*/
+.hos_top{
+	height: 0.46rem;
+	padding-left: 0.413333rem;
+	display: flex;
+}
+.hos_l{
+	line-height: 0.46rem;
+	font-size: 0.4rem;
+	font-weight: bold;
+	color: #333333;
+}
+.hos_c{
+	line-height: 0.46rem;
+	margin-left: 0.293333rem;
+	font-size: 0.266667rem;
+	color: #BBBBBB;
+}
+.hos_r{
+	line-height: 0.46rem;
+	margin-left: 2.21333rem;
+	font-size: 0.266667rem;
+	color: #999999;
+}
+.hos_i {
+	margin-left: 0.133333rem;
+	display: flex;
+	align-items: center;
+}
+.hos_i img{
+	display: block;
+	width: 0.146667rem;
+	height: 0.266667rem;
+}
+/*医院推荐body*/
+.hos_body{
+	padding-top: 0.4rem;
+	padding-left: 0.413333rem;
+}
+.hosItemone{
+	margin-bottom: 0.8rem;
+	display: flex;
+}
+.hos_left{
+	width: 1.773333rem;
+	height: 1.893333rem;
+	display: flex;
+    align-items: center;
+}
+.hos_left img{
+	width: 1.773333rem;
+	height: 1.773333rem;
+	display: block;
+	margin: 0 auto;
+}
+.hos_right{
+	margin-left: 0.413333rem;
+}
+.hos_right .hos_r_t{
+	display: flex;
+}
+.hos_name{
+	font-size: 0.453333rem;
+}
+.hos_address{
+	margin-left: 2.053333rem;
+	font-size: 0.32rem;
+}
+.hos_right .hos_r_c{
+	display: flex;
+}
+.hos_lable{
+	width: 1.44rem;
+	height: 0.48rem;
+	margin-top: 0.2rem;
+	line-height: 0.48rem;
+	text-align: center;
+	margin-right: 0.133333rem;
+	font-size: 0.26667rem;
+	color: #999999;
+	border-radius: 0.66rem;
+	background-color: #C9C9C9;
+}
+.hos_right .hos_r_b{
+	font-size: 0.32rem;
+	margin-top: 0.2rem;
+	color: #666666;
+}
+.hosItemtwo{
+	margin-bottom: 0.506667rem;
+	display: flex;
+}
+/*广告部分*/
+.advertisement{
+	width: 10rem;
+	padding-left:0.413333rem;
+}
+.adv_png{
+	width: 9.2rem;
+	height: 2.053333rem;
+	background-color: pink;
+}
+/*热门推荐*/
+.popular_rec{
+	width: 10rem;
+	padding-left:0.413333rem;
+	margin-top: 0.573333rem;
+	margin-bottom: 1.6rem;
+}
+.popular_rec_t{
+	height: 0.46rem;
+	display: flex;
+}
+.popular_rec_t .hot_name{
+	font-size: 0.4rem;
+	font-weight: bold;
+	line-height: 0.46rem;
+	color: #333333;
+}
+.popular_rec_t .hot_many{
+	margin-left: 6.706667rem;
+	font-size: 0.32rem;
+	line-height: 0.46rem;
+	color: #999999;
+}
+.popular_rec_t .hot_i{
+	display: flex;
+	align-items: center;
+	margin-left: 0.133333rem;
+}
+.popular_rec_t .hot_i img{
+	display: block;
+    width: 0.146667rem;
+    height: 0.266667rem;
+}
+.articleItem{
+	width: 9.2rem;
+	border-radius: 0.1rem;
+	margin-top: 0.32rem;
+	margin-bottom: 0.373333rem;
+	border: solid 1px #E0E7EF;
+}
+/*热门推荐第一条*/
+.articleOne{
+	display: flex;
+}
+.articleOne_l{
+	width: 5.5rem;
+	margin-left: 0.426667rem;
+}
+.articleOne_l_t{
+	margin-top: 0.386667rem;
+	font-size: 0.453333rem;
+	color: #333333;
+}
+.articleOne_l_b{
+	margin-top: 0.186667rem;
+	font-size: 0.32rem;
+	color: #999999;
+}
+.articleOne_r img{
+	width: 1.893333rem;
+	height: 1.293333rem;
+	display: block;
+	margin-left: 0.64rem;
+}
+/*热门推荐第二条*/
+.articleTwo{
+	margin-bottom: 0.386667rem;
+	display: flex;
+}
+.articleTwo_l{
+	width: 5.5rem;
+	margin-left: 0.426667rem;
+}
+.articleTwo_l_t{
+	margin-top: 0.386667rem;
+	font-size: 0.453333rem;
+	color: #333333;
+}
+.articleTwo_l_b{
+	margin-top: 0.186667rem;
+	font-size: 0.32rem;
+	color: #999999;
+}
+.articleTwo_r img{
+	width: 1.893333rem;
+	height: 1.293333rem;
+	display: block;
+	margin-left: 0.64rem;
+}
